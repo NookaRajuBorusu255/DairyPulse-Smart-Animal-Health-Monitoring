@@ -1,0 +1,72 @@
+
+=== Matches in index.html ===
+91: <span class="auth-dropdown-name" id="authDropdownName">Raju Borusu</span>
+165: <strong style="font-size: 0.88rem; color: var(--slate-900); display: block;" id="mobileAuthName">Raju Borusu</strong>
+428: <button class="chapter-btn" data-time="120" data-note="Dr. Sharma inspects telemetry remotely on tablet, prescribes preventive diet, saving 
+1141: <span style="font-weight: 600; font-size: 0.92rem;">+91 98XXX XXXXX (Demo Line)</span>
+1160: <input type="text" id="inputName" class="field-input" placeholder="Ramesh Patel" required>
+1164: <input type="tel" id="inputPhone" class="field-input" placeholder="+91 98XXX XXXXX" required>
+1254: <span class="fcc-farmer-name" id="fccSidebarFarmerName">Raju Borusu (Owner)</span>
+1317: <span class="fcc-nav-badge">Dr. Sharma</span>
+1419: <input type="text" id="genOwnerName" class="field-input" value="Ramesh Patel" required>
+1780: <span style="font-size: 0.85rem; font-weight: 600; color: var(--slate-800);">💬 SMS Alerts (+91 98765 43210)</span>
+1785: <span style="font-size: 0.85rem; font-weight: 600; color: var(--slate-800);">✉️ Email Digest (ramesh.patel@gokuldairy.in)</span>
+1790: <span style="font-size: 0.85rem; font-weight: 600; color: var(--slate-800);">🟢 WhatsApp Alerts (+91 98765 43210)</span>
+1887: Rumen acoustic sensor detected restlessness pacing and feeding pause. Temperature stabilized at 39.8°C. Suggest notification to veterinarian
+2055: <div class="vet-name">Dr. Arvind Sharma, B.V.Sc &amp; A.H.</div>
+2058: <span>📞 <b>Direct Phone:</b> +91 98451 22334</span>
+2059: <span>✉️ <b>Email:</b> vet.sharma@livestock.gov.in</span>
+2097: <td>Dr. Arvind Sharma</td>
+2105: <td>Dr. Arvind Sharma</td>
+2113: <td>Dr. Arvind Sharma</td>
+2424: <b>Raju Borusu</b>
+2425: <small style="display: block; color: var(--slate-500); font-size: 0.72rem;">raju.dairy@dairypulse.in</small>
+2431: <td>+91 98480 22334</td>
+2441: <b>Suresh Reddy</b>
+2442: <small style="display: block; color: var(--slate-500); font-size: 0.72rem;">suresh.m@dairypulse.in</small>
+2448: <td>+91 98480 55667</td>
+2458: <b>Venkatesh K.</b>
+2465: <td>+91 98480 88990</td>
+2475: <b>Dr. Arvind Sharma</b>
+2476: <small style="display: block; color: var(--slate-500); font-size: 0.72rem;">dr.arvind.vet@dairypulse.in</small>
+2482: <td>+91 98451 22334</td>
+2578: <input type="text" class="field-input" value="ramesh.patel@gokuldairy.in" readonly style="background: #e2e8f0; color: var(--slate-700);">
+2583: <input type="text" class="field-input" value="+91 98765 43210" readonly style="background: #e2e8f0; color: var(--slate-700);">
+2640: <span style="font-size: 0.76rem; color: var(--slate-500);">Allows verified veterinarian Dr. Arvind Sharma to review animal telemetry remotel
+2831: <option value="reading_anomaly">Unusual Temperature or Chewing Reading</option>
+3166: <input type="text" id="modalCustomerName" class="field-input" placeholder="Ramesh Patel" required>
+3170: <input type="tel" id="modalPhone" class="field-input" placeholder="+91 98XXX XXXXX" required>
+3557: <h4 style="font-size: 1.15rem; color: var(--slate-900); margin-bottom: 2px;">Dr. Arvind Sharma, B.V.Sc &amp; A.H.</h4>
+3562: <a href="tel:+919845122334" class="btn btn-primary" style="justify-content: center; width: 100%; text-decoration: none;">
+3563: 📞 Direct Phone Call: +91 98451 22334
+3605: <option value="Routine" selected>🟢 Routine Checkup / Pregnancy Check</option>
+3644: <div>FARM: Gokul Dairy &amp; Cattle Farm (Ramesh Patel)</div>
+3759: <strong>Raju Borusu</strong>
+3766: <strong>Dr. Arvind Sharma</strong>
+3837: <input type="text" id="signUpFullName" class="auth-input" placeholder="e.g. Raju Borusu" required autocomplete="name">
+3848: <input type="tel" id="signUpPhone" class="auth-input has-prefix" placeholder="98765 43210" maxlength="10" required autocomplete="tel">
+
+=== Matches in js/app.js ===
+745: ownerName: 'Ramesh Patel',
+958: document.getElementById('genOwnerName').value = 'Ramesh Patel';
+1421: showToast('Encrypted telemetry summary opened for WhatsApp dispatch to Dr. Arvind Sharma!', '🟢');
+1427: navigator.clipboard?.writeText('https://dairypulse.agri/v/telemetry-token-98214?vet=dr_sharma');
+1428: showToast('Secure Telemetry Link copied to clipboard for Dr. Sharma!', '📋');
+1456: <td>Dr. Arvind Sharma</td>
+1464: showToast(`Consultation request for ${animal} booked with Dr. Sharma!`, '👨‍⚕️');
+1791: name: 'Raju Borusu',
+1792: phone: '98480 22334',
+1793: email: 'raju.dairy@dairypulse.in',
+1801: name: 'Dr. Arvind Sharma',
+1802: phone: '98451 22334',
+1803: email: 'dr.arvind.vet@dairypulse.in',
+2063: if (identityVal.includes('raju') || identityVal.includes('98480')) {
+2066: } else if (identityVal.includes('vet') || identityVal.includes('arvind')) {
+2083: phone: identityVal.includes('@') ? '+91 98480 00000' : identityVal,
+2493: showToast('Calling Dr. Arvind Sharma (Veterinarian: +91 98451 22334)...', '🩺', 4000);
+2494: window.location.href = 'tel:9845122334';
+2503: window.open(`https://wa.me/919848022334?text=${msg}`, '_blank');
+
+=== Matches in js/chatbot.js ===
+546: <li><b>Veterinary Support:</b> Direct hotline to Dr. Arvind Sharma &amp; encrypted report sharing.</li>
+611: <b>Helpline:</b> +91 98XXX XXXXX<br>
